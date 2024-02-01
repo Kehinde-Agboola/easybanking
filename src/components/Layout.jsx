@@ -1,8 +1,9 @@
 import React from 'react'
+import { Footer, Navbar, Outlet } from '.'
 
 const Layout = () => {
   return (
-    <div>
+    <div className='h-full w-screen'>
          <header>
             <Navbar />
         </header>
