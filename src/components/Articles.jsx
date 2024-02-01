@@ -10,12 +10,12 @@ const Articles = () => {
        <div className='flex justify-center items-center'>
             <div className='w-[80vw] mt-12'>
                 <h2 className='text-semibold text-xl mb-6'>Latest Articles</h2>
-                <div className='sm:flex gap-6 sm:justify-center sm:items-center text-center font-thin'>
-                <div className='sm:w-[20vw] sm:h-[60vh] h-full bg-white rounded mb-4'>
+                <div className='sm:mb-8 sm:flex gap-6 sm:justify-center sm:items-center text-center font-thin'>
+                <div className='sm:w-[22vw] h-full bg-white rounded mb-4'>
                     <img className='rounded w-full h-[30vh] mb-4' src={currency} />
 
                     <div className='flex justify-center items-center mb-10'>
-                    <div className='w-[15vw] text-start'>
+                    <div className='w-[70vw] sm:w-[15vw] text-start'>
                         <h6 className='text-[0.6em]'>By Claire Robinson</h6>
                         <h3 className='text-sm font-semibold mb-4'>Recieve money in any currency with no fees</h3>
                         <h4 className='text-xs '>The world is getting smaller and we're becoming more mobile. So why should you be forced to only recieve money in a single...</h4>
@@ -23,11 +23,11 @@ const Articles = () => {
                     </div>
                 </div>
 
-                <div className='sm:w-[20vw] sm:h-[60vh] h-full bg-white rounded mb-4'>
+                <div className='sm:w-[22vw] h-full bg-white rounded mb-4'>
                     <img className='rounded w-full h-[30vh] mb-4' src={restaurant} />
 
                     <div className='flex justify-center items-center mb-10'>
-                    <div className='w-[15vw] text-start'>
+                    <div className='w-[70vw] sm:w-[15vw] text-start'>
                         <h6 className='text-[0.6em]'>By Claire Robinson</h6>
                         <h3 className='text-sm font-semibold mb-4'>Recieve money in any currency with no fees</h3>
                         <h4 className='text-xs'>The world is getting smaller and we're becoming more mobile. So why should you be forced to only recieve money in a single...</h4>
@@ -35,11 +35,11 @@ const Articles = () => {
                     </div>
                 </div>
 
-                <div className='sm:w-[20vw] sm:h-[60vh] h-full bg-white rounded mb-4'>
+                <div className='sm:w-[22vw] h-full bg-white rounded mb-4'>
                     <img className='rounded w-full h-[30vh] mb-4' src={plane} />
 
                     <div className='flex justify-center items-center mb-10'>
-                    <div className='w-[15vw] text-start'>
+                    <div className='w-[70vw] sm:w-[15vw] text-start'>
                         <h6 className='text-[0.6em]'>By Wilson Hutton</h6>
                         <h3 className='text-sm font-semibold mb-4'>Take your Easybank card wherever you go</h3>
                         <h4 className='text-xs'>We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. we'll even show you...</h4>
@@ -47,11 +47,11 @@ const Articles = () => {
                     </div>
                 </div>
 
-                <div className='sm:w-[20vw] sm:h-[60vh] h-full bg-white rounded mb-12 sm:mb-4'>
+                <div className='sm:w-[22vw] h-full bg-white rounded mb-12 sm:mb-4'>
                     <img className='rounded w-full h-[30vh] mb-4' src={confetti} />
 
                     <div className='flex justify-center items-center mb-10'>
-                    <div className='w-[15vw] text-start'>
+                    <div className='w-[70vw] sm:w-[15vw] text-start'>
                         <h6 className='text-[0.6em]'>By Claire Robinson</h6>
                         <h3 className='text-sm font-semibold mb-4'>Our invite-only Beta acounts are now live!</h3>
                         <h4 className='text-xs'>After a lot of hard work by the whole team, we're excited to launch our closed beta. it's easy to request an invite through the site...</h4>
