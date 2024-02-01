@@ -1,4 +1,4 @@
-import Navbar from "./Navabr";
+import Navbar from "./Navbar";
 import Outlet from "./Outlet";
 import Footer from "./Footer";
 import Offers from "./Offers";
@@ -13,5 +13,5 @@ export {
     Offers,
     Layout,
     Articles
-    
+
 }
