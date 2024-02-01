@@ -1,8 +1,12 @@
 import React from 'react'
+import { Articles, Offers } from '.';
 
 const Outlet = () => {
   return (
-    <div>Outlet</div>
+    <div className=''>
+      <Offers />
+      <Articles />
+    </div>
   )
 }
 
